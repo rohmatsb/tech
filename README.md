@@ -1,0 +1,2 @@
+# tech
+catatan seputar teknologi
