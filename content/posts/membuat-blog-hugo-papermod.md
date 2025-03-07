@@ -20,11 +20,18 @@ Settings => Pages
 Pada bagian 'Source', pilih Github Actions sebagai sumbernya. Tidak perlu klik simpan, karena perubahan sudah otomatis tersimpan.
 
 ## Langkah 2
-(Menyiapkan container atau device linux yang ingin digunakan)
 
-A. Pertama install semua paket-paket yang kemungkinan akan dibutuhkan
+#### (Membuat situs baru, lewat github codespaces)
 
-> sudo apt update\
-> sudo apt install wget gzip 
+Github Codespaces biasanya sudah terinstall hugo secara default, sehingga tidak perlu lagi install hugo.
 
-(to be continued, ngantuk pas nulis)
+In case somehow di masa depan hugo belum terinstall secara default, atau paket hugo yang terinstall merupakan versi lawas, install hugo terlebih dahulu.
+
+1. Buat situs baru di current directory (root repo directory)
+> hugo new site . --force
+
+2. Situs hugo yang baru akan tergenerate di current directory.
+
+#### (Membuat situs baru lewat local repo)
+
+1. 
