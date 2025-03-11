@@ -21,7 +21,7 @@ Pada bagian 'Source', pilih Github Actions sebagai sumbernya. Tidak perlu klik s
 
 ## Langkah 2
 
-#### (Membuat situs baru, lewat github codespaces)
+### (Membuat situs baru, lewat github codespaces)
 
 Github Codespaces biasanya sudah terinstall hugo secara default, sehingga tidak perlu lagi install hugo.
 
@@ -32,7 +32,7 @@ In case somehow di masa depan hugo belum terinstall secara default, atau paket h
 
 2. Situs hugo yang baru akan tergenerate di current directory.
 
-#### (Membuat situs baru lewat local repo)
+### (Membuat situs baru lewat local repo)
 
 Dikarenakan kita akan membuat situs baru nya lewat local repo, maka dari itu kita harus install Hugo terlebih dahulu.
 
