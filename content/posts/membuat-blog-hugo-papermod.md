@@ -44,11 +44,15 @@ Dikarenakan kita akan membuat situs baru nya lewat local repo, maka dari itu kit
 Contoh :
 
 (amd64)
-> https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_0.145.0_linux-amd64.deb
+> wget https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_0.145.0_linux-amd64.deb
 
 (arm64)
 > wget https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_0.145.0_linux-arm64.deb
 
 3. Install Hugo
-> apt install ./
+> apt install ./file-hugo-yang-akan-diinstall -y
 
+4. Buat situs baru di folder baru.
+> hugo new site nama-blog
+
+5. Situs baru akan ter-generate di folder nama-blog
