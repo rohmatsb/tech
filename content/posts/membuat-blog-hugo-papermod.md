@@ -34,4 +34,21 @@ In case somehow di masa depan hugo belum terinstall secara default, atau paket h
 
 #### (Membuat situs baru lewat local repo)
 
-1. 
+Dikarenakan kita akan membuat situs baru nya lewat local repo, maka dari itu kita harus install Hugo terlebih dahulu.
+
+1. Update kemudian install wget dan curl.
+
+> apt update && apt install wget curl -y
+
+2. Dapatkan Hugo versi terbaru
+Contoh :
+
+(amd64)
+> https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_0.145.0_linux-amd64.deb
+
+(arm64)
+> wget https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_0.145.0_linux-arm64.deb
+
+3. Install Hugo
+> apt install ./
+
