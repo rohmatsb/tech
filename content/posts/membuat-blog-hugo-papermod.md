@@ -11,7 +11,7 @@ Agar tidak kelabakan ketika akan menginstall ulang tema atau blog.
 ## Langkah 1
 (Menyiapkan repo publik untuk digunakan sebagai tempat hosting blog)
 
-A. Hal pertama yang harus dilakukan adalah login ke akun github kamu. Lalu buat repo baru tanpa disertai README.md
+A. Hal pertama yang harus dilakukan adalah login ke akun github kamu. Lalu buat repo baru. Buat readme.md jika ingin membuat situs hugo lewat github codespaces. Atau biarkan repo kosong jika ingin push lewat local repo.
 
 B. Jika sudah, lalu buka pengaturan repo di github. 
 
@@ -56,3 +56,8 @@ Contoh :
 > hugo new site nama-blog
 
 5. Situs baru akan ter-generate di folder nama-blog
+
+## Langkah 3
+(Menginstall theme yang ingin digunakan) 
+
+Pada tutorial ini, aku akan menggunakan Tema PaperMod sebagai contoh. 
